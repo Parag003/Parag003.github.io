@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+    text-align: center;
+    color: #40514E;
+}
+
+.text{
+    /* display: flex;
+    align-content: center;
+    justify-items: center; */
+    padding: 20px;
+    width: 40%;
+    margin: auto;
+    line-height: 2;
+ 
+   
+}
+
+hr{
+    border:dotted #bbe9e9 6px;
+    width: 20%;
+    border-bottom: none;
+    margin: 80px auto;
+}
+
+.intro{
+    padding-top: 3rem;
+    background-color: #35c7c7;
+    width:100%;
+    
+    
+   
+    /* padding-top: 100px; */
+    /* padding-right: 10px; */
+    /* text-align: center; */
+    font-family: 'Merrriweather',serif;
+
+}
+.middle-container{
+    margin: 100px 0px;
+}
+
+h1{
+    color: white;
+    position: relative;
+    
+    font-size: 70px;
+    margin: 0 auto 0 auto;
+    font-family: 'Century Gothic', sans-serif;
+}
+.int{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    position: relative;
+    color: white;
+}
+h2{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+.mount{
+    /* margin-top: 8rem; */
+    width: 61rem;
+
+}
+
+.contact{
+    width: 40%;
+    margin: 40px auto 60px;
+    position: relative;
+    top: 70px;
+    line-height: 2;
+}
+
+.bottom-container{
+    width: 100%;
+    height: 85px;
+    background-color: #66BFBF;
+    padding: 50px 0 20px ;
+    margin-left: 0px;
+    margin-right: -7px;
+    margin-bottom: -7px;
+}
+
+/* .contact-me{
+
+} */
+.get{
+    position: relative;
+    top: 23px;
+    font-size: 48px;
+}
+
+.top_c{
+    position: absolute;
+    left: 30%;
+    top: 7%;
+}
+.btn1{
+    position: relative;
+    left: -59px;
+    transition: all 1s ;
+}
+.btn1:hover{
+    transform: scale(1.5);
+}
+.btn2{
+    position: relative;
+    left:  -5px;
+    transition: all 1s ;
+}
+.btn2:hover{
+    transform: scale(1.5);
+}
+.btn3{
+    position: relative;
+    left:  63px;
+    transition: all 1s ;
+}
+.btn3:hover{
+    transform: scale(1.5);
+}
+.btn{
+    
+    transition: all 1s ;
+    position: relative;
+    top: 36px;
+}
+.btn:hover{
+    transform: scale(1.5);
+}
+.skill-row{
+    width:50%;
+    margin:100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+    
+}
+.c-code{
+    width:13%;
+    float: left;
+    margin-right: 30px;
+}
+.html-c{
+    width:20%;
+    float: right;
+    margin-left: 30px;
+}
+.css-c{
+    width:25%;
+    float:left;
+    margin-right: 30px;
+    
+   
+}
+
+@media (min-width:250px) and (max-width:950px){
+    .intro{
+        display: inline-block;
+    }
+    
+}

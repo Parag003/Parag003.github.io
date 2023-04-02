@@ -1,1 +1,1 @@
-# Parag003.github.io
+# This repository holds my personal blog
